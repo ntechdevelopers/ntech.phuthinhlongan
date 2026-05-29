@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 60" width="240" height="60">
+  <defs>
+    <!-- Gradient for the icon -->
+    <linearGradient id="greenGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2E7D32" />
+      <stop offset="100%" stop-color="#4CAF50" />
+    </linearGradient>
+  </defs>
+
+  <!-- Icon: Modern Real Estate / Growth Symbol -->
+  <g transform="translate(8, 5)">
+    <!-- Hexagonal shield boundary -->
+    <path d="M25,2 L45,13 L45,37 L25,48 L5,37 L5,13 Z" fill="none" stroke="url(#greenGrad)" stroke-width="2.5" stroke-linejoin="round"/>
+    
+    <!-- Stylized House roof and body -->
+    <path d="M14,24 L25,15 L36,24 L36,36 L14,36 Z" fill="#2E7D32" opacity="0.15"/>
+    <path d="M25,12 L38,22 L38,36 L31,36 L31,26 L19,26 L19,36 L12,36 L12,22 Z" fill="#2E7D32"/>
+    
+    <!-- Growth sprout / leaf leaf inside the house -->
+    <path d="M25,17 C28,21 31,23 31,27 C31,31 28,33 25,33 C22,33 19,31 19,27 C19,23 22,21 25,17 Z" fill="#4CAF50"/>
+  </g>
+  
+  <!-- Typography -->
+  <text x="68" y="28" font-family="'Montserrat', 'Inter', sans-serif" font-size="21" font-weight="800" fill="#0F2E59" letter-spacing="1">
+    PHÚ THỊNH
+  </text>
+  <text x="68" y="45" font-family="'Inter', 'Montserrat', sans-serif" font-size="11" font-weight="700" fill="#2E7D32" letter-spacing="4.5">
+    LONG AN
+  </text>
+</svg>
